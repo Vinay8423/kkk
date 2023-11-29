@@ -1,0 +1,526 @@
+function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+
+
+function INDONESIA()
+local idn = gg.multiChoice({
+	'SPEED 📴',
+	'SPEED🔛',
+	'2048',
+	'MINE RUNNER',
+	'❎ EXIT'
+}, {}, "HACK MADE BY 👑 vInAy 👑 [VVRTRICKS]")
+if (idn == nil) then return end
+if (idn [1]) then aaa() end
+if (idn [2]) then bbb() end
+if (idn [3]) then ccc() end
+if (idn [4]) then ddd() end
+if (idn [5]) then keluar() end
+end
+
+function aaa() -- speed off 
+so=gg.getRangesList('libunity.so')[1].start
+py=0xAC0B5C
+setvalue(so+py,16,0)
+gg.toast("SPEED Activated")
+
+
+
+
+local a,b,c,d,e,f,g,h,v,t='address','value','flags','name','freeze','freezeType','freezeFrom','freezeTo',nil
+v={{['end']=2924310528;[d]='/data/user/0/com.winzo.gold/files/so_files/1221/libunity.so';['arch']='ARM';['state']='Cd';['type']='rw-p';['internalName']='/data/user/0/com.winzo.gold/files/so_files/1221/libunity.so';['start']=2924212224;};{[100]=nil;};{nil;nil;nil;nil;['packageName']='com.winzo.gold';['versionName']='33.11.1215';['x64']=false;['versionCode']=1215;};{[c]=4;['offset']=nil;[a]=2924379724;[b]=2924379852;};{[20]=nil;};{[c]=4;['offset']=nil;[a]=2924379876;[b]=2924380108;};{[24]=nil;[260]=nil;};{nil;nil;nil;['map']=nil;};{[c]=4;['offset']=nil;[a]=2924380284;[b]=2821652576;};{[252]=nil;};{[80]=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924379704;[b]=2924379696;};{[c]=4;['offset']=nil;[a]=2924380112;[b]=2924380032;};{[c]=4;['offset']=nil;[a]=2924384736;[b]=2924380456;};{[c]=4;['offset']=nil;[a]=2924380112;[b]=2924380032;};{[c]=4;['offset']=nil;[a]=2924380476;[b]=2924380108;};{[c]=4;['offset']=nil;[a]=2924380284;[b]=2821652576;};{[180]=nil;};{[c]=4;['offset']=nil;[a]=2924380476;[b]=2924380108;};{[24]=nil;[260]=nil;};{[c]=4;['offset']=nil;[a]=2924380128;[b]=2924379852;};{[20]=nil;};{['end']=2924953600;[d]='[anon:.bss]';['arch']='ARM';['state']='Cb';['type']='rw-p';['internalName']='/data/user/0/com.winzo.gold/files/so_files/1221/libunity.so:bss';['start']=2924310528;};{[c]=16;[a]=2821652812;[b]=1.0;};{[236]=nil;};{[252]=nil;};{[4]=nil;};{[c]=4;['offset']=nil;[a]=2924379872;[b]=2924379700;};{[c]=4;['offset']=nil;[a]=2924303716;[b]=2924379680;};{[c]=4;['offset']=nil;[a]=2924356580;[b]=2924379700;};{[c]=4;['offset']=nil;[a]=2924379876;[b]=2924380108;};{nil;['map']=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924379856;[b]=2924379776;};{[236]=nil;};{[196]=nil;};{[c]=4;['offset']=nil;[a]=2924379876;[b]=2924380108;};{[c]=4;['offset']=nil;[a]=2924380132;[b]=2924380456;};{[176]=nil;};{[4]=nil;};{nil;nil;nil;nil;nil;nil;nil;nil;nil;nil;nil;['map']=nil;};{[176]=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924380476;[b]=2924380108;};{nil;['map']=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924380112;[b]=2924380032;};}
+t=v[2]
+t[100]=v[38]
+t=v[3]
+t[1]=v[33]
+t[2]=v[8]
+t[3]=v[46]
+t[4]=v[42]
+t=v[4]
+t['offset']=v[21]
+t=v[5]
+t[20]=v[17]
+t=v[6]
+t['offset']=v[34]
+t=v[7]
+t[24]=v[38]
+t[260]=v[14]
+t=v[8]
+t[1]=v[6]
+t[2]=v[48]
+t[3]=v[20]
+t['map']=v[24]
+t=v[9]
+t['offset']=v[36]
+t=v[10]
+t[252]=v[18]
+t=v[11]
+t[80]=v[14]
+t=v[12]
+t[176]=v[18]
+t=v[13]
+t['offset']=v[19]
+t=v[14]
+t['offset']=v[10]
+t=v[15]
+t['offset']=v[5]
+t=v[16]
+t['offset']=v[11]
+t=v[17]
+t['offset']=v[47]
+t=v[18]
+t['offset']=v[26]
+t=v[19]
+t[180]=v[38]
+t=v[20]
+t['offset']=v[40]
+t=v[21]
+t[24]=v[38]
+t[260]=v[14]
+t=v[22]
+t['offset']=v[7]
+t=v[23]
+t[20]=v[17]
+t=v[26]
+t[236]=v[25]
+t=v[27]
+t[252]=v[18]
+t=v[28]
+t[4]=v[14]
+t=v[29]
+t['offset']=v[43]
+t=v[30]
+t['offset']=v[37]
+t=v[31]
+t['offset']=v[44]
+t=v[32]
+t['offset']=v[41]
+t=v[33]
+t[1]=v[9]
+t['map']=v[24]
+t=v[34]
+t[176]=v[18]
+t=v[35]
+t['offset']=v[2]
+t=v[36]
+t[236]=v[25]
+t=v[37]
+t[196]=v[38]
+t=v[38]
+t['offset']=v[12]
+t=v[39]
+t['offset']=v[23]
+t=v[40]
+t[176]=v[18]
+t=v[41]
+t[4]=v[14]
+t=v[42]
+t[1]=v[31]
+t[2]=v[13]
+t[3]=v[4]
+t[4]=v[35]
+t[5]=v[29]
+t[6]=v[32]
+t[7]=v[16]
+t[8]=v[22]
+t[9]=v[39]
+t[10]=v[45]
+t[11]=v[15]
+t['map']=v[24]
+t=v[43]
+t[176]=v[38]
+t=v[44]
+t[176]=v[38]
+t=v[45]
+t['offset']=v[28]
+t=v[46]
+t[1]=v[30]
+t['map']=v[1]
+t=v[47]
+t[176]=v[18]
+t=v[48]
+t['offset']=v[27]
+v = v[3]
+
+function getRanges()
+	local archs = {[0x3] = 'x86', [0x28] = 'ARM', [0x3E] = 'x86-64', [0xB7] = 'AArch64'}
+	local ranges = {}
+	local t = gg.getRangesList('^/data/*libunity.so*$')
+	local arch = 'unknown'
+	for i, v in ipairs(t) do
+		if v.type:sub(2, 2) == '-' then
+			local t = gg.getValues({{address = v.start, flags = gg.TYPE_DWORD}, {address = v.start + 0x12, flags = gg.TYPE_WORD}})
+			if t[1].value == 0x464C457F then
+				arch = archs[t[2].value]
+				if arch == nil then arch = 'unknown' end
+			end
+		end	
+		if v.type:sub(2, 2) == 'w' then
+			v.arch = arch
+			table.insert(ranges, v)
+		end
+	end
+	return ranges
+end
+function out()
+	local ti = gg.getTargetInfo()
+	if ti.packageName ~= v.packageName or ti.versionCode ~= v.versionCode or ti.versionName ~= v.versionName or ti.x64 ~= v.x64 then
+		local x = {[true] = 'x64', [false] = 'x32'} 
+		gg.alert('The script is generated for the process\n\n'..v.packageName..' '..v.versionName..' ['..v.versionCode..'] '..x[v.x64]..
+			'\n\nYou selected the process\n\n'..ti.packageName..' '..ti.versionName..' ['..ti.versionCode..'] '..x[ti.x64]..
+			'\n\nChains may be loaded incorrectly.')
+	end
+	
+	local ranges = getRanges()
+	
+	local ret = {}
+	
+	local d = {}
+	local go = false
+	local arch = {}
+	for j, p in ipairs(v) do
+		if p.map.new == nil then
+			local name = p.map.internalName:gsub('^.*/', '')
+			for k, r in ipairs(ranges) do
+				local rname = r.internalName:gsub('^.*/', '')
+				if name == rname and p.map.state == r.state then
+					if arch[name] == nil and p.map.arch ~= r.arch then
+						arch[name] = true
+						gg.alert('The script is generated for the '..name..
+							' library with '..p.map.arch..' architecture, and you chose a process where the '..name..
+							' library has an '..r.arch..' architecture.\n\nChains may be loaded incorrectly.')
+					end
+					p.map.new = r
+					break
+				end
+			end
+		end
+		if p.map.new ~= nil then
+			for i, u in ipairs(p) do
+				u.address = u.address - p.map.start + p.map.new.start
+				d[u], go = u, true
+			end
+		end
+	end
+	
+	while go do
+		local s = gg.getValues(d)
+		d, go = {}, false
+		for old, new in pairs(s) do
+			if old.offset == nil then
+				table.insert(ret, new)
+			else
+				if not ti.x64 then new.value = new.value & 0xFFFFFFFF end
+				for offset, u in pairs(old.offset) do
+					u.address = new.value + offset
+					d[u], go = u, true
+				end
+			end
+		end
+	end
+
+	gg.loadResults(ret)
+gg.getResults(400)
+gg.editAll(0, gg.TYPE_FLOAT)
+gg.clearList()
+gg.clearResults()
+
+end
+out()
+gg.clearResults()
+end
+
+
+function bbb() -- speed onn
+
+
+local a,b,c,d,e,f,g,h,v,t='address','value','flags','name','freeze','freezeType','freezeFrom','freezeTo',nil
+v={{['end']=2924310528;[d]='/data/user/0/com.winzo.gold/files/so_files/1221/libunity.so';['arch']='ARM';['state']='Cd';['type']='rw-p';['internalName']='/data/user/0/com.winzo.gold/files/so_files/1221/libunity.so';['start']=2924212224;};{[100]=nil;};{nil;nil;nil;nil;['packageName']='com.winzo.gold';['versionName']='33.11.1215';['x64']=false;['versionCode']=1215;};{[c]=4;['offset']=nil;[a]=2924379724;[b]=2924379852;};{[20]=nil;};{[c]=4;['offset']=nil;[a]=2924379876;[b]=2924380108;};{[24]=nil;[260]=nil;};{nil;nil;nil;['map']=nil;};{[c]=4;['offset']=nil;[a]=2924380284;[b]=2821652576;};{[252]=nil;};{[80]=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924379704;[b]=2924379696;};{[c]=4;['offset']=nil;[a]=2924380112;[b]=2924380032;};{[c]=4;['offset']=nil;[a]=2924384736;[b]=2924380456;};{[c]=4;['offset']=nil;[a]=2924380112;[b]=2924380032;};{[c]=4;['offset']=nil;[a]=2924380476;[b]=2924380108;};{[c]=4;['offset']=nil;[a]=2924380284;[b]=2821652576;};{[180]=nil;};{[c]=4;['offset']=nil;[a]=2924380476;[b]=2924380108;};{[24]=nil;[260]=nil;};{[c]=4;['offset']=nil;[a]=2924380128;[b]=2924379852;};{[20]=nil;};{['end']=2924953600;[d]='[anon:.bss]';['arch']='ARM';['state']='Cb';['type']='rw-p';['internalName']='/data/user/0/com.winzo.gold/files/so_files/1221/libunity.so:bss';['start']=2924310528;};{[c]=16;[a]=2821652812;[b]=1.0;};{[236]=nil;};{[252]=nil;};{[4]=nil;};{[c]=4;['offset']=nil;[a]=2924379872;[b]=2924379700;};{[c]=4;['offset']=nil;[a]=2924303716;[b]=2924379680;};{[c]=4;['offset']=nil;[a]=2924356580;[b]=2924379700;};{[c]=4;['offset']=nil;[a]=2924379876;[b]=2924380108;};{nil;['map']=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924379856;[b]=2924379776;};{[236]=nil;};{[196]=nil;};{[c]=4;['offset']=nil;[a]=2924379876;[b]=2924380108;};{[c]=4;['offset']=nil;[a]=2924380132;[b]=2924380456;};{[176]=nil;};{[4]=nil;};{nil;nil;nil;nil;nil;nil;nil;nil;nil;nil;nil;['map']=nil;};{[176]=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924380476;[b]=2924380108;};{nil;['map']=nil;};{[176]=nil;};{[c]=4;['offset']=nil;[a]=2924380112;[b]=2924380032;};}
+t=v[2]
+t[100]=v[38]
+t=v[3]
+t[1]=v[33]
+t[2]=v[8]
+t[3]=v[46]
+t[4]=v[42]
+t=v[4]
+t['offset']=v[21]
+t=v[5]
+t[20]=v[17]
+t=v[6]
+t['offset']=v[34]
+t=v[7]
+t[24]=v[38]
+t[260]=v[14]
+t=v[8]
+t[1]=v[6]
+t[2]=v[48]
+t[3]=v[20]
+t['map']=v[24]
+t=v[9]
+t['offset']=v[36]
+t=v[10]
+t[252]=v[18]
+t=v[11]
+t[80]=v[14]
+t=v[12]
+t[176]=v[18]
+t=v[13]
+t['offset']=v[19]
+t=v[14]
+t['offset']=v[10]
+t=v[15]
+t['offset']=v[5]
+t=v[16]
+t['offset']=v[11]
+t=v[17]
+t['offset']=v[47]
+t=v[18]
+t['offset']=v[26]
+t=v[19]
+t[180]=v[38]
+t=v[20]
+t['offset']=v[40]
+t=v[21]
+t[24]=v[38]
+t[260]=v[14]
+t=v[22]
+t['offset']=v[7]
+t=v[23]
+t[20]=v[17]
+t=v[26]
+t[236]=v[25]
+t=v[27]
+t[252]=v[18]
+t=v[28]
+t[4]=v[14]
+t=v[29]
+t['offset']=v[43]
+t=v[30]
+t['offset']=v[37]
+t=v[31]
+t['offset']=v[44]
+t=v[32]
+t['offset']=v[41]
+t=v[33]
+t[1]=v[9]
+t['map']=v[24]
+t=v[34]
+t[176]=v[18]
+t=v[35]
+t['offset']=v[2]
+t=v[36]
+t[236]=v[25]
+t=v[37]
+t[196]=v[38]
+t=v[38]
+t['offset']=v[12]
+t=v[39]
+t['offset']=v[23]
+t=v[40]
+t[176]=v[18]
+t=v[41]
+t[4]=v[14]
+t=v[42]
+t[1]=v[31]
+t[2]=v[13]
+t[3]=v[4]
+t[4]=v[35]
+t[5]=v[29]
+t[6]=v[32]
+t[7]=v[16]
+t[8]=v[22]
+t[9]=v[39]
+t[10]=v[45]
+t[11]=v[15]
+t['map']=v[24]
+t=v[43]
+t[176]=v[38]
+t=v[44]
+t[176]=v[38]
+t=v[45]
+t['offset']=v[28]
+t=v[46]
+t[1]=v[30]
+t['map']=v[1]
+t=v[47]
+t[176]=v[18]
+t=v[48]
+t['offset']=v[27]
+v = v[3]
+
+function getRanges()
+	local archs = {[0x3] = 'x86', [0x28] = 'ARM', [0x3E] = 'x86-64', [0xB7] = 'AArch64'}
+	local ranges = {}
+	local t = gg.getRangesList('^/data/*libunity.so*$')
+	local arch = 'unknown'
+	for i, v in ipairs(t) do
+		if v.type:sub(2, 2) == '-' then
+			local t = gg.getValues({{address = v.start, flags = gg.TYPE_DWORD}, {address = v.start + 0x12, flags = gg.TYPE_WORD}})
+			if t[1].value == 0x464C457F then
+				arch = archs[t[2].value]
+				if arch == nil then arch = 'unknown' end
+			end
+		end	
+		if v.type:sub(2, 2) == 'w' then
+			v.arch = arch
+			table.insert(ranges, v)
+		end
+	end
+	return ranges
+end
+function out()
+	local ti = gg.getTargetInfo()
+	if ti.packageName ~= v.packageName or ti.versionCode ~= v.versionCode or ti.versionName ~= v.versionName or ti.x64 ~= v.x64 then
+		local x = {[true] = 'x64', [false] = 'x32'} 
+		gg.alert('The script is generated for the process\n\n'..v.packageName..' '..v.versionName..' ['..v.versionCode..'] '..x[v.x64]..
+			'\n\nYou selected the process\n\n'..ti.packageName..' '..ti.versionName..' ['..ti.versionCode..'] '..x[ti.x64]..
+			'\n\nChains may be loaded incorrectly.')
+	end
+	
+	local ranges = getRanges()
+	
+	local ret = {}
+	
+	local d = {}
+	local go = false
+	local arch = {}
+	for j, p in ipairs(v) do
+		if p.map.new == nil then
+			local name = p.map.internalName:gsub('^.*/', '')
+			for k, r in ipairs(ranges) do
+				local rname = r.internalName:gsub('^.*/', '')
+				if name == rname and p.map.state == r.state then
+					if arch[name] == nil and p.map.arch ~= r.arch then
+						arch[name] = true
+						gg.alert('The script is generated for the '..name..
+							' library with '..p.map.arch..' architecture, and you chose a process where the '..name..
+							' library has an '..r.arch..' architecture.\n\nChains may be loaded incorrectly.')
+					end
+					p.map.new = r
+					break
+				end
+			end
+		end
+		if p.map.new ~= nil then
+			for i, u in ipairs(p) do
+				u.address = u.address - p.map.start + p.map.new.start
+				d[u], go = u, true
+			end
+		end
+	end
+	
+	while go do
+		local s = gg.getValues(d)
+		d, go = {}, false
+		for old, new in pairs(s) do
+			if old.offset == nil then
+				table.insert(ret, new)
+			else
+				if not ti.x64 then new.value = new.value & 0xFFFFFFFF end
+				for offset, u in pairs(old.offset) do
+					u.address = new.value + offset
+					d[u], go = u, true
+				end
+			end
+		end
+	end
+
+	gg.loadResults(ret)
+gg.getResults(400)
+gg.editAll(1, gg.TYPE_FLOAT)
+gg.clearList()
+gg.clearResults()
+
+end
+out()
+gg.clearResults()
+
+
+so=gg.getRangesList('libunity.so')[1].start
+py=0xAC0B5C
+setvalue(so+py,16,0.28177720249)
+gg.toast("SPEED Activated")
+end
+
+
+
+function ccc() -- 2048
+-- bypass
+LibStart=gg.getRangesList('libil2cpp.so')[1].start
+APEXGG=nil
+APEXGG={}
+APEXGG[1]={}
+APEXGG[2]={}
+APEXGG[1].address=LibStart+0xc4e084
+--APEXGG[1].value='h0300A0E3'
+APEXGG[1].value='"h0000A0E3"'
+APEXGG[1].flags=4
+APEXGG[2].address=LibStart+(0xc4e084+0x4)
+APEXGG[2].value='h1EFF2FE1'
+APEXGG[2].flags=4
+gg.setValues(APEXGG)
+
+-- score
+LibStart=gg.getRangesList('libil2cpp.so')[1].start
+APEXGG=nil
+APEXGG={}
+APEXGG[1]={}
+APEXGG[2]={}
+APEXGG[3]={}
+APEXGG[1].address=LibStart+0x17a8618
+APEXGG[1].value='hF04F2DE9'
+--APEXGG[1].value='~A MOVw R5, #3000'
+APEXGG[1].flags=4
+APEXGG[2].address=LibStart+(0x17a8618+0x24)
+APEXGG[2].value='~A MOVw R7, #2699'
+APEXGG[2].flags=4
+APEXGG[3].address=LibStart+(0x17a8618+0x28)
+APEXGG[3].value='~A MOVw R8, #2699'
+APEXGG[3].flags=4
+gg.setValues(APEXGG)
+gg.toast("HACK Activated")
+end
+
+
+function ddd() -- MINE RUN
+
+function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=address tt[1].flags=flags tt[1].value=value gg.setValues(tt) end
+
+
+-- speed
+
+so=gg.getRangesList('libunity.so')[1].start
+py=0xAC0B5C
+setvalue(so+py,16,0.05177720249)
+gg.toast("SPEED Activated")
+-- score hack
+
+lib=gg.getRangesList('libil2cpp.so')[1].start
+local m = {}
+m[1] = {address = lib + (0x1DFA0A0+0x14), flags = 4, value = '~A MOVW R9, #120', freeze = true}
+gg.addListItems(m) 
+gg.clearList()
+
+gg.sleep(11000)
+
+-- speed
+
+so=gg.getRangesList('libunity.so')[1].start
+py=0xAC0B5C
+setvalue(so+py,16,0.17177720249)
+gg.toast("SPEED Activated")
+
+
+
+end
+
+function keluar()
+print("[👑KINGVINAY👑]")
+gg.setVisible(true)
+os.exit()
+end
+
+gg.setVisible(true)
+while (true) do
+if gg.isVisible() then gg.setVisible(false) INDONESIA() end
+end
